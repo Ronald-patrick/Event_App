@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="true"
+
+    android:paddingBottom="20dp"
+    tools:context=".Editevent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/c_upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/button"
+            android:text="Upload"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.046"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c_desc" />
+
+        <Button
+            android:id="@+id/c_btn_create"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/button"
+            android:text="Update"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c_filename" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="#ffd700"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="451dp"
+            android:layout_height="158dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="@+id/view"
+            app:srcCompat="@drawable/ic_wave"
+            tools:layout_editor_absoluteX="0dp"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+        <EditText
+            android:id="@+id/c_title"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/roundborder"
+            android:ems="10"
+            android:hint="Title"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:textColorHint="#97000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.165"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <EditText
+            android:id="@+id/c_org"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/roundborder"
+            android:ems="10"
+            android:hint="Organized By"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:textColorHint="#9A000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.164"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c_title" />
+
+        <EditText
+            android:id="@+id/c_date"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/roundborder"
+            android:ems="10"
+            android:hint="Date"
+            android:inputType="date"
+            android:paddingStart="20dp"
+            android:textColorHint="#99000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.159"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c_org" />
+
+        <EditText
+            android:id="@+id/c_phone"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/roundborder"
+            android:ems="10"
+            android:hint="Phone no."
+            android:inputType="phone"
+            android:paddingStart="20dp"
+            android:textColorHint="#95070606"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.164"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c_date" />
+
+        <EditText
+            android:id="@+id/c_deadline"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/roundborder"
+            android:ems="10"
+            android:hint="Deadline"
+            android:inputType="date"
+            android:paddingStart="20dp"
+            android:textColorHint="#97020202"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.164"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c_phone" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="317dp"
+            android:layout_height="94dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/bungee"
+            android:text="Edit Event"
+            android:textColor="@color/black"
+            android:textSize="33sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/c_desc"
+            android:layout_width="370dp"
+            android:layout_height="203dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/roundborder2"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:textColorHint="#9A000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.777"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c_deadline" />
+
+        <TextView
+            android:id="@+id/c_filename"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="28dp"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:text="No Files Selected"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.177"
+            app:layout_constraintStart_toEndOf="@+id/c_upload"
+            app:layout_constraintTop_toBottomOf="@+id/c_desc" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

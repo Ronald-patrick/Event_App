@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "596972876823",
+    "firebase_url": "https://eventsapp-3679c.firebaseio.com",
+    "project_id": "eventsapp-3679c",
+    "storage_bucket": "eventsapp-3679c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596972876823:android:a2e360b41f3eed7280d852",
+        "android_client_info": {
+          "package_name": "com.example.event_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596972876823-e0bm9sa18co3vkt71pnflge51un3gdjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvAGAhKdwUNwi8Dw9A9eTXN0p8xsKjrkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596972876823-e0bm9sa18co3vkt71pnflge51un3gdjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="dark_blue">#3023AE</color>
+    <color name="purple">#c86dd7</color>
+    <color name="student_login">#FFFFFF</color>
+    <color name="Red">#FF0000</color>
+    <color name="bg_login">#FFD500</color>
+    <color name="black">#000000</color>
+    <color name="card_bg">#8A0651</color>
+    <color name="sidebar">#7386D5</color>
+    <color name="bg_create">#2a6f68</color>
+</resources>

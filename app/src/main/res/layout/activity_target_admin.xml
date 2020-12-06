@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimaryDark"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".targetActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/click_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_bhai"
+            android:gravity="center"
+            android:text="Hackathon"
+            android:textColor="@color/student_login"
+            android:textSize="60dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="45dp"
+            android:text="Organized"
+            android:gravity="center"
+            android:textColor="@color/student_login"
+            android:id="@+id/click_org"
+            />
+
+        <TextView
+            android:id="@+id/click_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/autour_one"
+            android:gravity="center"
+            android:text="Date"
+            android:textColor="@color/student_login"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/edit_admin"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Edit Event"
+            android:textSize="18dp"
+            android:background="@drawable/roundborder_white"
+            android:textColor="@color/student_login"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Registered:"
+            android:textColor="@color/student_login"
+            android:textSize="34dp"
+            android:fontFamily="@font/abhaya_libre"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listofpart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+
+            android:textColor="@color/student_login"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+
+        android:fontFamily="@font/autour_one"
+        android:text="Events App"
+        android:textColor="@color/student_login"
+        android:textSize="30dp"
+        android:textStyle="normal" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
