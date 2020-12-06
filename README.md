@@ -6,4 +6,9 @@ Firebase used as database 🔥🔥
 <b>Snapshots!</b>
 
 <img src="https://github.com/Ronald-patrick/Event_App/blob/master/Screenshot%20(65).png">
+<hr>
+<img src="https://github.com/Ronald-patrick/Event_App/blob/master/Screenshot%20(68).png">
+<hr>
+<img src="https://github.com/Ronald-patrick/Event_App/blob/master/Screenshot%20(68).png">
+
 
