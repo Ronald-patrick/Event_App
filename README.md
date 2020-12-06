@@ -3,7 +3,8 @@ Android app created during winter 2020🎇 as part of our Computer science 3rd s
 
 Firebase used as database 🔥🔥
 <hr>
-<b>Snapshots!</b>
+<h1>Snapshots!</h1>
+<br>
 
 
 <img src="https://github.com/Ronald-patrick/Event_App/blob/master/Screenshot%20(65).png">
